@@ -2,12 +2,22 @@ body{
   margin: 0px;
 }
 
-.header{
+.header, 
+.footer{
   color: #F9FAF8;
   background: #1F2937;
+}
+
+.header{
   padding: 0 300px;
   display: flex;
   flex-direction: column;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  padding: 50px 300px;
+  justify-content: center;
 }
 
 .header-line{
